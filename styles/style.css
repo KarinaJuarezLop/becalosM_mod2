@@ -1,0 +1,15 @@
+h1{
+    font-size: 60px;
+}
+
+.text-custom{
+    color: red;
+    background-color: aquamarine;
+    margin-bottom: 100px;
+}
+
+.text-custom{
+    color: blue;
+    background-color: blanchedalmond;
+    margin-bottom: 100px;
+}
