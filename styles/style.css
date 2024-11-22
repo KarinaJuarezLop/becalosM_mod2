@@ -1,3 +1,7 @@
+*{
+    font-family: 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
+}
+
 h1{
     font-size: 60px;
 }
@@ -8,8 +12,16 @@ h1{
     margin-bottom: 100px;
 }
 
-.text-custom{
+.text-custom2{
     color: blue;
     background-color: blanchedalmond;
     margin-bottom: 100px;
+}
+
+.espacioabajocustom{
+    margin-bottom: 100px;
+}
+
+.identificador-parrafo{
+    margin-top: 70px;
 }
