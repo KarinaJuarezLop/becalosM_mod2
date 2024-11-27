@@ -1,0 +1,12 @@
+.tarjeta{
+    background-color: #1E3932;
+}
+
+#tarjeta-uno .contenedor-imagen{
+    width: 50%;
+    display:inline-block;
+}
+
+#tarjeta-uno .contenedor-imagen .imagen-starbucks{
+    max-width: 50%;
+}
