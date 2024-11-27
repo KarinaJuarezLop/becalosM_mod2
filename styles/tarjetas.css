@@ -22,3 +22,26 @@ body{
 .contenedor-interno{
     display: inline-block;
 }
+
+
+#tarjeta-dos{
+    background-color: #d50032;
+}
+
+#tarjeta-dos .contenedor-imagen{
+    width: 50%;
+    vertical-align: middle;
+}
+
+#tarjeta-dos .contenedor-imagen .imagen-starbucks{
+    max-width: 100%;
+}
+.contenedor-texto{
+    color: white;
+    text-align: center;
+    width: 364px;
+}
+
+.contenedor-interno{
+    display: inline-block;
+}
