@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#contenedorprincipal{
+    background-color: black;
+    display: flex;
+}
+
+#contenedorprincipal .caja{
+    color:white;
+    margin-right: 10px;
+    background-color: blueviolet;
+    height: 400px;
+    width: 400px;
+}
