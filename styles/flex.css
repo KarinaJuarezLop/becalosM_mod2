@@ -1,17 +1,40 @@
 *{
     box-sizing: border-box;
     margin: 0;
-}
-
-#contenedorprincipal{
-    background-color: black;
+  }
+  
+  #contenedorPrincipal{
+    background-color: #030303;
+    height: 700px;
+  }
+  .contenedor-flex{
     display: flex;
-}
-
-#contenedorprincipal .caja{
-    color:white;
-    margin-right: 10px;
-    background-color: blueviolet;
-    height: 400px;
+    flex-direction: row;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #contenedorPrincipal .caja{
+    color: white;
+    background-color:blueviolet;
     width: 400px;
-}
+    height: 400px;
+    display: flex;
+    border: 1px solid #000;
+    justify-content: center; /* Eje Principal */
+    align-items: center; /* Eje Cruzado */
+  }
+  
+  .caja-uno {
+    align-self: flex-start;
+    /* align-self: flex-start; */
+  }
+  
+  .caja-tres{
+    align-self: flex-end;
+    /* align-self: flex-end; */
+  }
